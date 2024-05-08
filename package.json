@@ -1,0 +1,38 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhamDucHau/nodejs_blog.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "haumon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhamDucHau/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/PhamDucHau/nodejs_blog#readme",
+  "devDependencies": {
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "method-override": "^3.0.0",
+    "mongoose": "^8.2.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "mongoose-slug-updater": "^3.3.0"
+  }
+}
